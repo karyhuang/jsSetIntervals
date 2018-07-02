@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Set Interval Practice</title>
+</head>
+<body>
+  <h1>I will sing twinkle twinkle every second to the console</h1>
+  <script>
+    function sing() {
+      console.log("twinkle twinkle...");
+      console.log("how I wonder...");
+    }
+    // setInterval(anotherFunction, interval)
+    setInterval(sing, 1000);
+
+    // anonymous function
+    setInterval(function(){
+      console.log("Up above the sky...");
+      console.log("Like a diamond...");
+    }, 2000)
+  </script>
+</body>
+</html>
